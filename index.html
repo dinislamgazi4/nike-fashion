@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header class=" bg-yellow-200 pb-10 pt-10 container mx-auto  rounded-xl" >
+
+        
+<nav class="px-2 ">
+    <div class="container flex flex-wrap items-center justify-around mx-auto">
+          <img src="icons/Logo.png" class="h-6 mr-3 sm:h-10"/>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
+        <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+                <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+              </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Product</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Shoes</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+        <section class="container mx-auto flex items-center justify-around">
+            <div class="w-96">
+                <img src="images/Group 33092.png" alt="">
+            </div>
+            <div class="space-y-5">
+                <h1 class="text-5xl uppercase font-bold">
+                    <span>Nike React </span><br>
+                    <span>Infinity Run 2</span>
+                </h1>
+                <p>Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry. </p>
+                <button class="uppercase text-white font-bold bg-lime-400 py-4 px-6 rounded-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                      </svg> Buy Now </button>
+            </div>
+        </section>
+    </header>
+    <main class="container mx-auto">
+        <section class="pt-14 p-5">
+            <h2 class="text-5xl font-bold" >CASUAL SHOES</h2>
+            <!-- CASUAL SHOES -->
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-7 py-9">
+
+                <!-- SHOES 1 -->
+                <div class="p-4 bg-yellow-100 rounded-xl shadow-lg">
+                   <div class="p-4 bg-red-200 rounded-xl">
+                    <img class="w-96" src="images/image 5.png" alt="">
+                   </div>
+                    <h3 class="text-2xl font-bold mt-4">Nike Shoe</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="mt-4 flex items-center justify-between">
+                     <h5 class="text-5xl font-bold">$850</h5>
+                     <button class="uppercase text-white font-bold bg-blue-700 py-4  px-6 rounded-xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                          </svg> Buy Now </button>
+                    </div>
+                </div>
+                <!-- SHOES 2 -->
+                <div class="p-4 bg-yellow-100 rounded-xl shadow-lg">
+                    <div class="p-4 bg-red-200 rounded-xl">
+                     <img class="w-96" src="images/Daco_1703273 1.png" alt="">
+                    </div>
+                     <h3 class="mt-4 text-2xl font-bold">Sneakers Skate Shoe </h3>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                     <div class="mt-4 flex items-center justify-between">
+                      <h5 class="text-5xl font-bold">$750</h5>
+                      <button class="uppercase text-white font-bold bg-blue-700 py-4  px-6 rounded-xl">
+                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                           </svg> Buy Now </button>
+                     </div>
+                 </div>
+
+                  <!-- SHOES 3 -->
+                <div class="p-4 bg-yellow-100 rounded-xl shadow-lg">
+                    <div class="p-4 bg-red-200 rounded-xl">
+                     <img class="w-96" src="images/pngegg 1.png" alt="">
+                    </div>
+                     <h3 class="mt-9 text-2xl font-bold"> Basketball shoe </h3>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                     <div class="mt-4 flex items-center justify-between">
+                      <h5 class="text-5xl font-bold">$925</h5>
+                      <button class="uppercase text-white font-bold bg-blue-700 py-4  px-6 rounded-xl">
+                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                           </svg> Buy Now </button>
+                     </div>
+                 </div>
+
+            </div>
+        </section>
+
+        <section class="pt-14 p-5">
+            <h2 class="text-5xl font-bold" >Formal shoes</h2>
+            <!-- Formal shoes -->
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-7 py-9">
+
+                <!-- SHOES 4 -->
+                <div class="p-4 bg-green-300 rounded-xl shadow-lg">
+                   <div class="p-4 bg-cyan-200 rounded-xl">
+                    <img class="w-96" src="images/Rectangle 39.png" alt="">
+                   </div>
+                    <h3 class="text-2xl font-bold mt-4">Nike Shoe</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="mt-4 flex items-center justify-between">
+                     <h5 class="text-5xl font-bold">$799</h5>
+                     <button class="uppercase text-white font-bold bg-blue-700 py-4  px-6 rounded-xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                          </svg> Buy Now </button>
+                    </div>
+                </div>
+                <!-- SHOES 5 -->
+                <div class="p-4 bg-green-300 rounded-xl shadow-lg">
+                    <div class="p-4 bg-cyan-200 rounded-xl">
+                     <img class="w-96" src="images/Mask Group.png" alt="">
+                    </div>
+                     <h3 class="mt-4 text-2xl font-bold">Sneakers Skate Shoe </h3>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                     <div class="mt-4 flex items-center justify-between">
+                      <h5 class="text-5xl font-bold">$699</h5>
+                      <button class="uppercase text-white font-bold bg-blue-700 py-4  px-6 rounded-xl">
+                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                           </svg> Buy Now </button>
+                     </div>
+                 </div>
+
+                  <!-- SHOES 6 -->
+                <div class="p-4 bg-green-300 rounded-xl shadow-lg">
+                    <div class="p-4 bg-cyan-200 rounded-xl">
+                     <img class="w-96" src="images/Rectangle 38.png" alt="">
+                    </div>
+                     <h3 class="mt-4 text-2xl font-bold"> Basketball shoe </h3>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                     <div class="mt-4 flex items-center justify-between">
+                      <h5 class="text-5xl font-bold">$999</h5>
+                      <button class="uppercase text-white font-bold bg-blue-700 py-4  px-6 rounded-xl">
+                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                           </svg> Buy Now </button>
+                     </div>
+                 </div>
+
+            </div>
+        </section>
+
+            <!-- last part -->
+        <section>
+            <div class="grid md:grid-cols-2 gap-5">
+                <div class="h-32 bg-slate-100 rounded-xl flex items-center gap-5">
+                    <img class="w-24"src="icons/image 12.png" alt="">
+                    <div>
+                        <h2 class="text-2xl font-bold">Find the Perfect Fit</h2>
+                        <p>Everybody is different, which is why we offer styles for every body.</p>
+                    </div>
+                </div>
+
+                <div class=" rounded-xl row-span-3 bg-slate-200">
+                    <img class="p-5" src="icons/XMLID 1.png" alt="">
+                </div>
+
+                <div class="h-32 bg-slate-100 rounded-xl flex items-center gap-5">
+                    <img class="w-24"src="icons/image 13.png" alt="">
+                    <div>
+                        <h2 class="text-2xl font-bold">Free Exchanges</h2>
+                        <p>One of the many reasons you can shop with peace of mind.</p>
+                    </div>
+                </div>
+                <div class="h-32 bg-slate-100 rounded-xl flex items-center gap-5">
+                    <img class="w-24"src="icons/image 14.png" alt="">
+                    <div>
+                        <h2 class="text-2xl font-bold">Contact Our Seller</h2>
+                        <p>They are here to help you. That's quite literally what we pay them for</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container mx-auto h-32 ">
+        <p class="mt-20 text-center">Copyright © 2023 .Nike Fashion Thank you</p>
+    </footer>
+    
+</body>
+</html>
